@@ -48,7 +48,7 @@ li {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -61,7 +61,7 @@ li {
   color: var(--hove-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 }
 
@@ -69,7 +69,7 @@ li {
 .tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 
   color: #757575;
@@ -83,7 +83,7 @@ li {
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.6;
   letter-spacing: 0.03em;
 }
 .btn2:hover,
@@ -93,7 +93,7 @@ li {
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.6;
   letter-spacing: 0.03em;
 }
 .btn3:hover,
@@ -103,7 +103,7 @@ li {
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.6;
   letter-spacing: 0.03em;
 }
 .btn4:hover,
@@ -113,7 +113,7 @@ li {
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.6;
   letter-spacing: 0.03em;
 }
 .btn5:hover,
@@ -123,7 +123,7 @@ li {
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.6;
   letter-spacing: 0.03em;
 }
 
@@ -139,7 +139,7 @@ footer {
 }
 .location {
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -150,7 +150,7 @@ footer {
 .mail-footer,
 .tell-footer {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
 .mail-footer:hover,
