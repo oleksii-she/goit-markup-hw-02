@@ -1,0 +1,62 @@
+:root {
+  --paragraph-text-color: #757575;
+  --title-text-color: #212121;
+  --hove-text-color: #2196f3;
+}
+
+body {
+  color: var(--title-text-color);
+  background-color: #ffffff;
+  font-family: roboto, sans-serif;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+a {
+  color: inherit;
+}
+
+/* LOGO */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo-color {
+  color: #000000;
+}
+
+.studia:hover {
+  color: var(--hove-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+.studia:focus {
+  color: var(--hove-text-color);
+}
+.portfolio:hover {
+  color: var(--hove-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.porfolio:focus {
+  background-color: var(--hove-text-color);
+}
+.contacts:hover {
+  color: var(--hove-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
