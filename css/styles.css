@@ -2,42 +2,13 @@
   --paragraph-text-color: #757575;
   --title-text-color: #212121;
   --hove-text-color: #2196f3;
+  --main-cover_color: #ffffff;
 }
 
 body {
   color: var(--title-text-color);
   background-color: #ffffff;
   font-family: roboto, sans-serif;
-}
-
-h1 {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-  letter-spacing: 0.06em;
-}
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.1;
-  letter-spacing: 0.06em;
-}
-p {
-  font-size: 16px;
-  line-height: 1.9;
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-a {
-  color: inherit;
-  text-decoration: none;
 }
 li {
   list-style-type: none;
@@ -51,22 +22,27 @@ li {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
+  text-decoration: none;
 }
 .logo-color {
   color: #000000;
 }
 
-.navigation:hover,
-.navigation:focus {
-  color: var(--hove-text-color);
+.menu-nav {
+  color: var(--title-text-color);
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
+.menu-nav:hover,
+.menu-nav:focus {
+  color: var(--hove-text-color);
+}
 
-.mail,
-.tel {
+.contacts {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -74,60 +50,95 @@ li {
 
   color: #757575;
 }
+.contacts:hover,
+.contacts:focus {
+  color: var(--hove-text-color);
+}
+/* заказ услуг */
+.service-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.service-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.1;
+}
+
+.service-btn:hover,
+.service-btn:focus {
+  background-color: var(--hove-text-color);
+  color: var(--main-cover_color);
+}
+/* особености*/
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.featura-text {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-text-color);
+}
+/* Чем мы занимаемся */
+
+.specifcation-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+/* наша команда */
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+/* Портфолио */
 
 /* Кнопки */
-.btn1:hover,
-.btn1:focus {
-  cursor: pointer;
-  background-color: var(--hove-text-color);
-  color: #ffffff;
+
+.portfolio-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
 }
-.btn2:hover,
-.btn2:focus {
-  cursor: pointer;
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   background-color: var(--hove-text-color);
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-}
-.btn3:hover,
-.btn3:focus {
-  cursor: pointer;
-  background-color: var(--hove-text-color);
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-}
-.btn4:hover,
-.btn4:focus {
-  cursor: pointer;
-  background-color: var(--hove-text-color);
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-}
-.btn5:hover,
-.btn5:focus {
-  cursor: pointer;
-  background-color: var(--hove-text-color);
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
+  color: var(--main-cover_color);
 }
 
 /* Портфолио */
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 2;
+  color: var(--paragraph-text-color);
+}
 
 /* Footer */
 
@@ -138,6 +149,7 @@ footer {
   color: #ffffff;
 }
 .location {
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -147,17 +159,15 @@ footer {
 .location:focus {
   color: #ffffff;
 }
-.mail-footer,
-.tell-footer {
+
+.contacts-footer {
+  text-decoration: none;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.mail-footer:hover,
-.mail-footer:focus {
-  color: #ffffff;
-}
-.tell-footer:hover,
-.tell-footer:focus {
+.contacts-footer:hover,
+.contacts-footer:focus {
   color: #ffffff;
 }
