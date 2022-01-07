@@ -60,9 +60,9 @@ li {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  color: #ffffff;
 }
 .service-btn {
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.1;
@@ -80,7 +80,7 @@ li {
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
-.featura-text {
+.feature-text {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -115,6 +115,7 @@ li {
 /* Кнопки */
 
 .portfolio-btn {
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
