@@ -19,7 +19,7 @@ li {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.38;
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
@@ -30,6 +30,7 @@ li {
 
 .menu-nav {
   color: var(--title-text-color);
+
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -55,17 +56,22 @@ li {
   color: var(--hove-text-color);
 }
 /* заказ услуг */
+.service {
+  background-color: #2f303a;
+}
 .service-text {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  color: #ffffff;
 }
 .service-btn {
-  cursor: pointer;
+  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 .service-btn:hover,
@@ -115,6 +121,7 @@ li {
 /* Кнопки */
 
 .portfolio-btn {
+  font-family: Roboto;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -132,12 +139,11 @@ li {
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
+  line-height: 2;
 }
 .portfolio-text {
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.87;
   color: var(--paragraph-text-color);
 }
 
@@ -146,15 +152,16 @@ li {
 footer {
   background-color: #2f303a;
 }
-.logo-color2 {
+.logo-color-footer {
   color: #ffffff;
 }
 .location {
-  text-decoration: none;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .location:hover,
 .location:focus {
@@ -162,11 +169,12 @@ footer {
 }
 
 .contacts-footer {
-  text-decoration: none;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .contacts-footer:hover,
 .contacts-footer:focus {
