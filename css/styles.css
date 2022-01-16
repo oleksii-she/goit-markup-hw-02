@@ -3,25 +3,39 @@
   --title-text-color: #212121;
   --hove-text-color: #2196f3;
   --main-cover_color: #ffffff;
+  --contact-text_color: #757575;
+  --contact-footer_color: rgba(255, 255, 255, 0.6);
 }
 
 body {
   color: var(--title-text-color);
-  background-color: #ffffff;
-  font-family: roboto, sans-serif;
+  background-color: var(--main-cover_color);
+  font-family: 'roboto', sans-serif;
 }
 li {
   list-style-type: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 /* HEADER */
 .logo {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.38;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--hove-text-color);
   text-decoration: none;
 }
 .logo-color {
@@ -49,7 +63,7 @@ li {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--contact-text_color);
 }
 .contacts:hover,
 .contacts:focus {
@@ -63,11 +77,12 @@ li {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--main-cover_color);
 }
 .service-btn {
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -115,13 +130,14 @@ li {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  color: var(--paragraph-text-color);
 }
 /* Портфолио */
 
 /* Кнопки */
 
 .portfolio-btn {
-  font-family: Roboto;
+  font-family: inherit;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -156,27 +172,27 @@ footer {
   color: #ffffff;
 }
 .location {
-  font-style: normal;
+  font-style: inherit;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contact-footer_color);
   text-decoration: none;
 }
 .location:hover,
 .location:focus {
-  color: #ffffff;
+  color: var(--main-cover_color);
 }
 
 .contacts-footer {
-  font-style: normal;
+  font-style: inherit;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contact-footer_color);
   text-decoration: none;
 }
 .contacts-footer:hover,
 .contacts-footer:focus {
-  color: #ffffff;
+  color: var(--main-cover_color);
 }
